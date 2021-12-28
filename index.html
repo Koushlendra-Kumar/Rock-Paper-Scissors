@@ -3,10 +3,56 @@
   <head>
     <meta charset="utf-8">
     <title>Rock Paper Scissors Project</title>
+    <script src = "script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <script src = "script.js">
+    <div class="header">
+      <h1 class="main-heading">Rock Paper Scissors Game</h1>
+    </div>
+    <div class="main-body">
+      <div class="options">
+        <button type="button" class="option rock"  name="button"><img src="rps-images/shahreboye-rock.jpg" alt="Rock image"></button>
+        <button type="button" class="option paper"  name="button"><img src="rps-images/anna-nekrashevich.jpg" alt="Paper-image"></button>
+        <button type="button" class="option scissor"  name="button"><img src="rps-images/cottonbro-cgi.jpg" alt="Scissor-image"></button>
+      </div>
+      <div class="rules">
+        <div class="rules-heading">
+          Rules:-
+        </div>
+        <ul>
+          <li>The rock is when you place your hand into the form of a simple fist.</li>
+          <li>The paper is when you place your hand in an outstretched position.</li>
+          <li>This is when you hold your fist with your index and middle finger pointing outwards in a V shape.</li>
+          <li>Rock wins against scissors.</li>
+          <li>Scissors win against paper.</li>
+          <li>Paper wins against rock.</li>
+          <li>The game will run until one of the player's score is less than five.</li>
+        </ul>
+          <div class="computer">
 
-    </script>
+          </div>
+          <button type="button" class="start-button" name="button"> <a href="https://github.com/Koushlendra-Kumar/rock-paper-scissors" target='_blank'>View Code</a>
+          </button>
+
+      </div>
+      <div class="score-board">
+        <div class="score-head">
+          Score Board
+        </div>
+        <div class="your-score">
+
+        </div>
+        <div class="computer-score">
+
+        </div>
+        <div class="result">
+
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      Copyright &copy The Odin Project 2021
+    </div>
   </body>
 </html>
